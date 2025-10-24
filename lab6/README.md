@@ -52,7 +52,7 @@ print(f"Decoded message: {result}")
 
 Алгоритм читає QR-код зигзагом, починаючи з нижнього правого кута:
 
-* Рухається парами колонок справа наліво
+* Рухається парами колонок з права на ліво
 * Чергує напрямок руху (вгору/вниз)
 * Пропускає службові зони (позиціонування, формат, синхронізація)
 
@@ -113,8 +113,3 @@ Decoded message: Hello
 * Тільки Mask 0
 * Максимум 8 символів
 * Без реальної корекції помилок
-
-
-* [QR Code Tutorial](https://www.thonky.com/qr-code-tutorial/)
-* [ISO/IEC 18004 QR Code Standard](https://www.iso.org/standard/62021.html)
-* [Understanding QR Codes](https://en.wikipedia.org/wiki/QR_code)
